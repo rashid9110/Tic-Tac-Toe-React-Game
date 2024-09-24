@@ -1,0 +1,43 @@
+/* 
+
+.grid{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.trun-highlit{
+    color: white;
+} */
+
+/* Parent container */
+.container {
+    position: relative; /* To position child elements relative to this container */
+    height: 100vh;      /* Example of full viewport height */
+}
+
+.content {
+    position: absolute;
+    top: 10%; /* Moves the content 30% down from the top of the container */
+    left: 50%; /* Centers it horizontally */
+    transform: translateX(-50%); /*Offsets the horizontal centering*/
+}
+
+/* Grid itself */
+.grid {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Highlighted item */
+.trun-highlit {
+    color: white;
+}
